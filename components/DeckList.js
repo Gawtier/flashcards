@@ -23,7 +23,7 @@ class DeckList extends Component {
        const { navigation } = this.props
 
        if (!this.state.decks) return(<View><Text>Loading...</Text></View>)
-       
+
         return (
             <KeyboardAvoidingView behavior="padding" style={
                 {
@@ -65,17 +65,3 @@ class DeckList extends Component {
 }
 
 export default DeckList;
-
-/*
-{Object.values(decks).map((deck) =>
-                    <TouchableOpacity key={deck.title}
-                    style={
-                        {
-                            margin:10
-                        }
-                    }>
-                        <Text>{deck.title} - {deck.questions.length} cards</Text>
-                        <Text>Click for more info</Text>
-                    </TouchableOpacity>
-                )}
-*/
