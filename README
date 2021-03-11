@@ -1,0 +1,8 @@
+This app has been tested on Expo Go on iPhone XS. 
+
+This app simulate the behavior of flashcards to help memorize content. 
+
+It has not been styled. 
+
+This project can be installed with yarn install & yarn start.
+For expo, you have to login and then expo start.
